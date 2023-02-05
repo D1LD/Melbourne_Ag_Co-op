@@ -70,14 +70,14 @@ contract ERC20Detailed is IERC20 {
   }
 }
 
-contract BUNA is ERC20Detailed {
+contract NUT is ERC20Detailed {
 
   using SafeMath for uint256;
   mapping (address => uint256) private _balances;
   mapping (address => mapping (address => uint256)) private _allowed;
 
-  string constant tokenName = "BUNA";
-  string constant tokenSymbol = "BNA";
+  string constant tokenName = "NUT";
+  string constant tokenSymbol = "NUTC";
   uint8  constant tokenDecimals = 18;
   uint256 _totalSupply = 500000*10**18;
   uint256 public basePercent = 100;
