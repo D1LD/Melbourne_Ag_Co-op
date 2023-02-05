@@ -77,7 +77,7 @@ contract NUT is ERC20Detailed {
   mapping (address => mapping (address => uint256)) private _allowed;
 
   string constant tokenName = "NUT";
-  string constant tokenSymbol = "NUTC";
+  string constant tokenSymbol = "ETH";
   uint8  constant tokenDecimals = 18;
   uint256 _totalSupply = 500000*10**18;
   uint256 public basePercent = 100;
